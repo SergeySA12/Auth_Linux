@@ -5,7 +5,7 @@ import yaml
 
 
 class TestNegative:
-    with open('config_user.yaml') as fy:
+    with open('config_user.yaml') as fy:p
         data = yaml.safe_load(fy)
 
     def test_negative1(self, make_folder, clear_folder, make_files, create_bad_archive):
