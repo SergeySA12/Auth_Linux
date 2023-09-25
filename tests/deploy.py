@@ -3,7 +3,7 @@ import yaml
 
 
 def deploy():
-    with open('test/config.yaml') as fy:
+    with open('../assem3/config.yaml') as fy:
         data = yaml.safe_load(fy)
 
     res = list()
