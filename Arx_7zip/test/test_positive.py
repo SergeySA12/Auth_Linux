@@ -1,8 +1,8 @@
 import string
 
 import yaml
-from random import random, choices
-from tests.checks import checkout, check_hash_crc32
+from random import choices
+from Arx_7zip.checks import checkout, check_hash_crc32
 import pytest
 
 

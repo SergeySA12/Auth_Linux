@@ -1,4 +1,4 @@
-from tests.checks import ssh_checkout, upload_files
+from Arx_7zip.checks import ssh_checkout, upload_files
 import yaml
 
 

@@ -1,7 +1,7 @@
 import random
 import string
 import pytest as pytest
-from tests.checks import ssh_checkout, check_loadavg, checkout
+from Arx_7zip.checks import ssh_checkout, check_loadavg, checkout
 
 from datetime import datetime
 

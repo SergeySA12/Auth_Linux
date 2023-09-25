@@ -1,11 +1,11 @@
 import pytest
 
-from tests.checks import checkout_negativ
+from Arx_7zip.checks import checkout_negativ
 import yaml
 
 
 class TestNegative:
-    with open('config_user.yaml') as fy:p
+    with open('config_user.yaml') as fy:
         data = yaml.safe_load(fy)
 
     def test_negative1(self, make_folder, clear_folder, make_files, create_bad_archive):
