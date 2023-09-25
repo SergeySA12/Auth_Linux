@@ -22,7 +22,7 @@ def deploy():
 
 if __name__ == "__main__":
 
-    if deploy():
-        print("OK")
-    else:
+    if not deploy():
         print("error")
+    else:
+        print("OK")
