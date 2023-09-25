@@ -1,7 +1,7 @@
 from checkers import checkout, getout
 import yaml
 
-with open('../config.yaml') as f:
+with open('../../tests/test/config.yaml') as f:
     # читаем документ YAML
     data = yaml.safe_load(f)
 
